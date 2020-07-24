@@ -1,0 +1,146 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.72;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	color: #000000;
+}
+
+.list {
+	list-style: none;
+}
+
+.text {
+	display: none;
+}
+
+.menu-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 0.875;
+	letter-spacing: 0.02em;
+	color: #212121;
+	text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contacs-link:hover,
+.contacs-link:focus {
+	color: #2196f3;
+}
+
+.contacs-link,
+.btn {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 0.875;
+	letter-spacing: 0.02em;
+	color: #757575;
+	text-decoration: none;
+}
+
+span {
+	color: #2196f3;
+}
+.page-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.hero {
+	background: #c4c4c4;
+}
+
+.btn {
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.875;
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+}
+
+.section-title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.66;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.section-subtitle {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+
+.section-descripcion {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.signature {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	background: #383434;
+	color: #ffffff;
+}
+
+.comand-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1875;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.comand-item {
+	font-size: 16px;
+	line-height: 1.1875;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.adress {
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background: #383434;
+	text-decoration: none;
+}
