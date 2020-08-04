@@ -1,12 +1,19 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+:root {
+	--accent-color: #2196f3;
+	--main-color: #757575;
+	--dark-color: #212121;
+	--logo-color: #000000;
+	--adress-color: #ffffff;
+}
 
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	line-height: 1.72;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--main-color);
 }
 
 .logo {
@@ -16,7 +23,7 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-decoration: none;
-	color: #000000;
+	color: var(--logo-color);
 }
 
 .list {
@@ -32,15 +39,17 @@ body {
 	font-size: 14px;
 	line-height: 0.875;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color: var(--dark-color);
 	text-decoration: none;
 }
 
 .menu-link:hover,
 .menu-link:focus,
 .contacs-link:hover,
-.contacs-link:focus {
-	color: #2196f3;
+.contacs-link:focus,
+.adress:hover,
+.adress:focus {
+	color: var(--accent-color);
 }
 
 .contacs-link,
@@ -49,12 +58,12 @@ body {
 	font-size: 14px;
 	line-height: 0.875;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--main-color);
 	text-decoration: none;
 }
 
 span {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 .page-title {
 	font-family: "Roboto", sans-serif;
@@ -64,7 +73,7 @@ span {
 	letter-spacing: 0.06em;
 	text-align: center;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--adress-color);
 }
 .hero {
 	background: #c4c4c4;
@@ -80,7 +89,7 @@ span {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: #ffffff;
+	color: var(--adress-color);
 }
 
 .section-title {
@@ -89,7 +98,7 @@ span {
 	line-height: 1.66;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--dark-color);
 }
 
 .section-subtitle {
@@ -98,7 +107,7 @@ span {
 	line-height: 1.143;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #212121;
+	color: var(--dark-color);
 }
 
 .section-descripcion {
@@ -106,7 +115,7 @@ span {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--main-color);
 }
 
 .signature {
@@ -116,7 +125,7 @@ span {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	background: #383434;
-	color: #ffffff;
+	color: var(--adress-color);
 }
 
 .comand-title {
@@ -125,7 +134,7 @@ span {
 	line-height: 1.1875;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--dark-color);
 }
 
 .comand-item {
@@ -133,14 +142,14 @@ span {
 	line-height: 1.1875;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--main-color);
 }
 
 .adress {
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color: #ffffff;
+	color: var(--adress-color);
 	background: #383434;
 	text-decoration: none;
 }
