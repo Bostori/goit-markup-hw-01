@@ -58,8 +58,9 @@ body {
 	font-size: 14px;
 	line-height: 0.875;
 	letter-spacing: 0.02em;
-	color: var(--main-color);
+	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
+	background-color: #c4c4c4;
 }
 
 span {
@@ -102,6 +103,7 @@ span {
 }
 
 .section-subtitle {
+	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.143;
@@ -109,7 +111,16 @@ span {
 	text-transform: uppercase;
 	color: var(--dark-color);
 }
+/* font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
+color: #212121;
+ */
 .section-descripcion {
 	font-weight: normal;
 	font-size: 14px;
